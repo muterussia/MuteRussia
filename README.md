@@ -4,7 +4,7 @@ This initiative aims at flooding Russian government/military/ministry websites a
 
 ### How do I install MuteRussia on my website?
 
-The whole project is very simple and consist only of a single HTML file that needs to be uploaded to your server and needs to be accessible via regular browser. This can be usually done via FTP or File Manager in your CMS. This file contains only markup needed to display the necessary information and controls to the visitor and a piece of JavaScript code that does the job when the visitor wants to. The source code is fully open source for obvious reasons. We recommend you to ask your webmaster or admin to review its contents to prevent any security regarding issues.
+The whole project is very simple and consist only of a single HTML file **muterussia.html** that needs to be uploaded to your server and needs to be accessible via regular browser. This can be usually done via FTP or File Manager in your CMS. This file contains only markup needed to display the necessary information and controls to the visitor and a piece of JavaScript code that does the job when the visitor wants to. The source code is fully open source for obvious reasons. We recommend you to ask your webmaster or admin to review its contents to prevent any security regarding issues.
 
 After uploading the file you should challenge your visitors to open it (in a new tab possibly). The contents and form of the challenge is up to you - article, blog post, information bar, banner, pop-up window, site-wide box, footer etc. To improve the range of MuteRussia we recommend you to send an e-mail to your contact/subscription list with the link to this file located on your server.
 
