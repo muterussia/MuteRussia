@@ -1,1 +1,5 @@
 This folder contains lists of pages located on the target servers. We have picked them from the WebArchive.org, filtered and sorted by the page size in bytes descending to maximize the effect of the script as it is expected that larger pages will consume more resources on the server (especially for complex pages wit many DB requests). You can freely use these lists for your project with the similar purpose.
+
+If you have an idea to get the pages on your own for another domain, you can use the following URL format that will grab all pages within given domain (i.e. en.economy.gov.ru), take results discovered in 2021 or later, filter results by mime type and status code - we only want HTML pages with 200 (OK) result status, then the results will be grouped by the URL of the page and only fields like URL and length in bytes will be returned.
+
+https://web.archive.org/cdx/search/cdx?url=en.economy.gov.ru*&output=csv&collapse=original&from=2021&filter=mimetype:text/html&filter=statuscode:200&fl=original,length
